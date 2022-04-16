@@ -1,0 +1,67 @@
+body {
+  background-color: hsl(227, 50%, 7%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 570px;
+  height: 450px;
+  text-align: start;
+  background-color: hsl(244, 38%, 16%);
+}
+.title {
+  padding-top: 45px;
+  padding-left: 70px;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  color: white;
+}
+.title span {
+  color: hsl(276, 55%, 60%);
+}
+.text {
+  color: hsl(243, 10%, 47%);
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  padding-left: 70px;
+  padding-top: 1px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.counter {
+  padding-top: 45px;
+  padding-left: 70px;
+  padding-right: 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.numbers {
+  color: white;
+  font-size: 21px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.places {
+  text-transform: uppercase;
+  color: hsl(243, 10%, 47%);
+  line-height: 1px;
+  font-size: 12px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 500;
+}
+
+.image {
+  height: 450px;
+  width: 550px;
+  filter: opacity(0.5) drop-shadow(0 0 0 rgb(126, 17, 126));
+}
