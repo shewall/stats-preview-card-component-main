@@ -63,5 +63,5 @@ body {
 .image {
   height: 450px;
   width: 550px;
-  -moz-filter: opacity(0.5) drop-shadow(0 0 0 rgb(126, 17, 126));
+  filter: opacity(0.5) drop-shadow(0 0 0 rgb(126, 17, 126));
 }
